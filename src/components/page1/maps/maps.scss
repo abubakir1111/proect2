@@ -1,0 +1,41 @@
+.maps-container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 180px;
+    position: relative;
+    z-index: 1;
+    max-width: 1110px;
+    margin: 0 auto;
+    .maps-container-box {
+        display: flex;
+        align-items: start;
+        flex-direction: column;
+        gap: 100px;
+
+        p {
+            color: rgb(212, 193, 127);
+            font-family: 'Playfair Display', sans-serif;
+            font-size: 36px;
+            font-weight: 700;
+            line-height: -1px;
+        }
+
+        div {
+            width: 1110px;
+            height: 358px;
+            background: rgb(98, 98, 98);
+        }
+    }
+
+    .maps-background-image {
+        background-image: url(../../../assets/img/maps/V.png);
+        width: 268px;
+        height: 507px;
+        background-repeat: no-repeat;
+        position: absolute;
+        right: 981px;
+        z-index: -1;
+        top: 100px;
+    }
+}

@@ -1,0 +1,30 @@
+.video-container{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+    .video-cotnainer-box{
+        background-image: url(../../../assets/img/video/video.png);
+        width: 719px;
+        height: 650px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        .play-button{
+            background-image: url(../../../assets/img/video/play-button.png);
+            width: 100px;
+            height: 100px;
+            background-color: transparent;
+            border: none;
+        }
+    }
+    .video-container-background-image{
+        position: absolute;
+        background-image: url(../../../assets/img/video/IV.png);
+        width: 418px;
+        height: 517px;
+        background-repeat: no-repeat;
+        right: 148px;
+        top: 175px;
+    }
+}
